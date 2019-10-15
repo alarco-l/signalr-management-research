@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>Azure_Signalr_Management</RootNamespace>
+    <UserSecretsId>ba24da95-410d-4fe2-a4d6-d91d697b4ea8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.SignalR" Version="[1.*, )" />
+  </ItemGroup>
+
+</Project>
